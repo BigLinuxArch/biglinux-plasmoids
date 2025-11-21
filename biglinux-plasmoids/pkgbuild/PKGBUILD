@@ -1,14 +1,14 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=biglinux-plasmoids
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=24.11.26
+pkgrel=2343
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/biglinux-plasmoids"
 pkgdesc="Compositor switch plasmoid"
 depends=('plasma-desktop')
-source=("git+https://github.com/biglinux/biglinux-plasmoids.git")
+source=("git+https://github.com/biglinux/biglinux-plasmoids.git#branch=stable-2024-11-26_19-14")
 md5sums=(SKIP)
 
 package() {
